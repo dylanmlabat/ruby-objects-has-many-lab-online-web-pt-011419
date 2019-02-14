@@ -8,4 +8,8 @@ class Song
     @artist = artist
     @@all << name
   end
+  
+  def self.all
+    @@all
+  end
 end
